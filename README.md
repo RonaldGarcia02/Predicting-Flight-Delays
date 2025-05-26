@@ -31,12 +31,6 @@ This project predicts flight delays using operational and weather data from U.S.
 - `flights_with_pred reduced_for_git.csv`:  
   Contains the final dataset with model predictions (`prediction` = 0 or 1) and `prob_delayed` score for future deployment or visualization in Power BI. reduced size for git.
 
-- `flightsjan2025.csv`:  
-  CSV File containing all the original flight information used in the beginning of the notebook.
-
-- `noaa_weather_2025/`:  
-  Full set of NOAA weather files initially downloaded and processed.
-
 ## 🔮 Prediction Function
 
 The notebook includes a `predict_delay()` function for custom inputs:
