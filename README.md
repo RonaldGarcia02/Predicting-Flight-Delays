@@ -28,11 +28,11 @@ This project predicts flight delays using operational and weather data from U.S.
 
 ## 🧾 File Outputs
 
-- `flights_with_pred.csv`:  
-  Contains the final dataset with model predictions (`prediction` = 0 or 1) and `prob_delayed` score for future deployment or visualization in Power BI.
+- `flights_with_pred reduced_for_git.csv`:  
+  Contains the final dataset with model predictions (`prediction` = 0 or 1) and `prob_delayed` score for future deployment or visualization in Power BI. reduced size for git.
 
-- `weather_lite/`:  
-  Folder containing reduced NOAA ISD weather files for January 2025 (used in merging step).
+- `flightsjan2025.csv`:  
+  CSV File containing all the original flight information used in the beginning of the notebook.
 
 - `noaa_weather_2025/`:  
   Full set of NOAA weather files initially downloaded and processed.
@@ -53,7 +53,7 @@ predict_delay(
     wind_speed=5.2,
     precip=0.0
 )
-
+```
 
 ## 📊 Visualizations
 
