@@ -53,6 +53,8 @@ predict_delay(
     wind_speed=5.2,
     precip=0.0
 )
+✈️ Prediction: DELAYED (class=1) - Probability of delay: 0.53
+(np.int64(1), np.float32(0.5275923))
 ```
 
 ## 📊 Visualizations
