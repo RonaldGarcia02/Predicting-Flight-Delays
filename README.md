@@ -26,6 +26,35 @@ This project predicts flight delays using operational and weather data from U.S.
   - Much higher recall for delayed flights (≈76%)  
   - Best when catching delays is more important than overall accuracy
 
+## 🧾 File Outputs
+
+- `flights_with_pred.csv`:  
+  Contains the final dataset with model predictions (`prediction` = 0 or 1) and `prob_delayed` score for future deployment or visualization in Power BI.
+
+- `weather_lite/`:  
+  Folder containing reduced NOAA ISD weather files for January 2025 (used in merging step).
+
+- `noaa_weather_2025/`:  
+  Full set of NOAA weather files initially downloaded and processed.
+
+## 🔮 Prediction Function
+
+The notebook includes a `predict_delay()` function for custom inputs:
+
+```python
+predict_delay(
+    airline='AA',
+    origin='JFK',
+    destination='LAX',
+    dep_hour=15,
+    day_of_week=5,
+    is_weekend=0,
+    air_temp=30.0,
+    wind_speed=5.2,
+    precip=0.0
+)
+
+
 ## 📊 Visualizations
 
 Delay rate was explored across:
