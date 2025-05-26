@@ -30,9 +30,11 @@ This project predicts flight delays using operational and weather data from U.S.
 
 Delay rate was explored across:
 - **Hour of day**: early mornings had fewer delays; late afternoons had more
+![Screenshot 2025-05-26 at 10 43 36 AM](https://github.com/user-attachments/assets/d01b9e29-f272-4a50-b657-2039ed0d275a)
 - **Top origin airports**: some (like DFW, DEN) showed higher delay rates
+![Screenshot 2025-05-26 at 10 44 08 AM](https://github.com/user-attachments/assets/83c89a4f-8a36-4ff9-b740-480ec4693dc7)
 - **Top airlines**: delay rates varied across carriers
-- **1-hour precipitation**: weak/noise-heavy relationship, excluded from dashboard
+![Screenshot 2025-05-26 at 10 44 32 AM](https://github.com/user-attachments/assets/1dac7d22-71ab-4116-852d-760ce2d92d76)
 
 ## 🔍 Data Sources
 
